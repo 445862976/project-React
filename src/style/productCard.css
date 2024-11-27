@@ -1,0 +1,21 @@
+.product_card{
+    border: 2px solid rgba(0, 0, 0, .2);
+    border-radius: 1em;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc((100% - 4em) / 3);
+    transition: .4s;
+    position: relative;
+}
+.hideText{
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    cursor: pointer;
+}
+.hideCard {
+    opacity: 0;
+    visibility: hidden;
+}
